@@ -1,5 +1,7 @@
 # DXVK
 
+this fork is because of [this](https://github.com/doitsujin/dxvk/issues/4548), i dont have any coding ability but i know how to edit one file and make it compile on github's servers, this was just for personal use.
+
 A Vulkan-based translation layer for Direct3D 8/9/10/11 which allows running 3D applications on Linux using Wine.
 
 For the current status of the project, please refer to the [project wiki](https://github.com/doitsujin/dxvk/wiki).
