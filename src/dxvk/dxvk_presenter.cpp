@@ -300,7 +300,7 @@ namespace dxvk {
     m_info.imageCount = pickImageCount(minImageCount, maxImageCount, desc.imageCount);
 
     VkSurfaceFullScreenExclusiveInfoEXT fullScreenInfo = { VK_STRUCTURE_TYPE_SURFACE_FULL_SCREEN_EXCLUSIVE_INFO_EXT };
-    fullScreenInfo.fullScreenExclusive = VK_FULL_SCREEN_EXCLUSIVE_DISALLOWED_EXT;
+    fullScreenInfo.fullScreenExclusive = VK_FULL_SCREEN_EXCLUSIVE_DEFAULT_EXT;
 
     VkSwapchainPresentModesCreateInfoEXT modeInfo = { VK_STRUCTURE_TYPE_SWAPCHAIN_PRESENT_MODES_CREATE_INFO_EXT };
     modeInfo.presentModeCount       = compatibleModes.size();
